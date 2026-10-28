@@ -1,21 +1,41 @@
-Personal Portfolio - Task 1
+# Personal Portfolio Website
 
-Files:
-- index.html        Main page
-- style.css         Page design
-- profile-placeholder.png  Sample profile picture placeholder
+## About the Project
 
-How to open:
-1. Put these three files in the same folder.
-2. Double-click index.html or open it in your browser.
-3. To edit the page, open index.html and style.css in VS Code.
+This is my personal portfolio website, created using HTML and CSS. The main purpose of this project is to introduce myself as a junior web developer and showcase my skills and projects.
 
-Before submitting, change:
-- "Your Name" to your real name (in header and footer).
-- "yourusername" in the GitHub links to your GitHub username.
-- The about paragraph and skills so they describe you.
-- Replace profile-placeholder.png with your own photo if you want.
-- The project details/links once you have your real projects.
+I built this website to practice what I have learned about web development and improve my front-end development skills.
 
-Note: The contact form is only a visual sample. It does not send messages.
-The YouTube video needs an internet connection to load.
+## Features
+
+- Simple and clean website design
+- Easy navigation between sections
+- About Me section with personal information and skills
+- Embedded YouTube video about web development
+- Projects section to display my work
+- Contact form with name, email, and message fields
+- Footer with social media links
+
+## Technologies Used
+
+- **HTML5** – Used to build the structure of the website.
+- **CSS3** – Used to style the page and improve its appearance.
+
+## How to Run the Project
+
+1. Download the project files from this repository.
+2. Extract the ZIP file if needed.
+3. Open the project folder.
+4. Open `index.html` in any web browser.
+
+## Future Improvements
+
+I plan to continue improving this portfolio by adding more projects, updating the design, and learning JavaScript to make the website more interactive.
+
+## Author
+
+**GitHub:** [mustafa202110](https://github.com/mustafa202110)
+
+---
+
+This project was created as part of my journey to becoming a web developer.
