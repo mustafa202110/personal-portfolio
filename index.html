@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Junior Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Header -->
+    <header>
+        <div class="container">
+            <h1>MUSTAFA IBRAHIM</h1>
+            <p class="tagline">Junior Web Developer</p>
+            <p class="tagline">Welcome to my personal portfolio!
+                 I'm a junior web developer who enjoys learning new skills and building simple, creative websites.
+                 Here you can learn more about me and explore my projects.</p>
+
+            <nav aria-label="Main navigation">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me -->
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="MY PHOTO.jpeg" alt="Placeholder for my profile photo" class="profile-photo">
+                <div>
+                    <p
+                        Hello! I'm a Computer Engineering Student who is interested in web development.
+                        I'm currently learning how to build websites using HTML and CSS.
+                        I enjoy trying new ideas, practicing my skills, and improving
+                        my work step by step.
+                    </p>
+                    <h3>My Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Basic responsive design</li>
+                        <li>Problem solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Video -->
+        <section id="video" class="container">
+            <h2>Featured Video</h2>
+            <p>This video gives a simple introduction to HTML, CSS, and JavaScript.</p>
+            <div class="video-box">
+                <iframe
+                    src="https://www.youtube.com/embed/gT0Lh1eYk78"
+                    title="HTML, CSS, and JavaScript explained for beginners"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="container">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <article class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A simple website to introduce myself, share my skills, and show my projects.</p>
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Restaurant Menu Page</h3>
+                    <p>A practice project idea for creating a clean restaurant menu with HTML and CSS.</p>
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <p>Have a question? You can leave a message below.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 MUSTAFA IBRAHIM. All rights reserved.</p>
+        <a href="https://www.linkedin.com/in/mustafa-awartani-690077401/" target="_blank" rel="noopener noreferrer">My LinkedIn</a>
+    </footer>
+
+</body>
+</html>
